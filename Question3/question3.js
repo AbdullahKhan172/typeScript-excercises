@@ -1,1 +1,3 @@
-console.log("Muhammad Ali Jinnah once said, “Think a hundred times before you take a decision, but once that decision is taken, stand by it as one man.”");
+var Name1 = "aBdullah";
+console.log(Name1.toUpperCase());
+console.log(Name1.toLowerCase());

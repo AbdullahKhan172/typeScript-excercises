@@ -1,3 +1,2 @@
-var Name1 = "aBdullah";
-console.log(Name1.toUpperCase());
-console.log(Name1.toLowerCase());
+var Name = "Abdullah";
+console.log("\"Hello ".concat(Name, ", would you like to learn some Python today?\""));

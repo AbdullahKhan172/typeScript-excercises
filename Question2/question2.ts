@@ -1,4 +1,7 @@
-let Name1: string = "aBdullah";
+/* Name:Abdullah Khan
+   Date: 11/2/2023
+   This progrmae simply displays a string having a string type variable in it aswell
+*/
 
-console.log(Name1.toUpperCase());
-console.log(Name1.toLowerCase());
+let Name: string = "Abdullah";
+console.log(`"Hello ${Name}, would you like to learn some Python today?"`);
