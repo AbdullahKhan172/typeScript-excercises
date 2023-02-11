@@ -20,6 +20,10 @@ guests.unshift("Nawaz Sharif");
 guests.splice(2, 0, "Benazir Bhutto");
 guests.push("Sheikh Rasheed");
 
+console.log(
+  `\nFor the record we are inviting ${guests.length} to the dinner\n`
+);
+
 for (let i = 0; i <= 5; i++) {
   console.log(
     `Dear ${guests[i]} I would love for you to come and have dinner with me at my house`

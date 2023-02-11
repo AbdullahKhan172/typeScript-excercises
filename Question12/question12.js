@@ -9,6 +9,7 @@ console.log("But fortunately we found a bigger dinner table");
 guests.unshift("Nawaz Sharif");
 guests.splice(2, 0, "Benazir Bhutto");
 guests.push("Sheikh Rasheed");
+console.log("\n For the record we are inviting ".concat(guests.length, " to the dinner\n"));
 for (var i = 0; i <= 5; i++) {
     console.log("Dear ".concat(guests[i], " I would love for you to come and have dinner with me at my house"));
 }
